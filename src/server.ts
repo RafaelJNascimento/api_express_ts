@@ -1,6 +1,8 @@
 import express from 'express';
 import routes from './reoutes';
 
+import './database';
+
 const app = express();
 
 app.use(express.json());
