@@ -1,4 +1,3 @@
-import { isMonday } from 'date-fns';
 import { Router } from 'express';
 
 import CreateUserService from '../services/CreateUserService';
